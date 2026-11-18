@@ -2,11 +2,85 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Дашборд продаж в Yandex DataLens</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дашборд по анализу продаж в Yandex DataLens</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: #f4f7f6; 
+            color: #333; 
+            line-height: 1.6; 
+            margin: 0; 
+            padding: 20px; 
+        }
+        .container { 
+            max-width: 900px; 
+            margin: 0 auto; 
+            background: #fff; 
+            padding: 40px; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
+        }
+        h1 { color: #1a202c; border-bottom: 2px solid #e2e8f0; padding-bottom: 15px; }
+        h2 { color: #2d3748; margin-top: 30px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        .project-image { 
+            width: 100%; 
+            height: auto; 
+            border-radius: 8px; 
+            margin: 25px 0; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            border: 1px solid #e2e8f0;
+        }
+        .back-link { 
+            display: inline-block; 
+            margin-top: 30px; 
+            padding: 12px 24px; 
+            background-color: #2563eb; 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 6px; 
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .back-link:hover { background-color: #1d4ed8; }
+    </style>
 </head>
 <body>
-    <h1>Дашборд по анализу продаж</h1>
-    <p>Это демонстрационный проект дашборда в Yandex DataLens.</p>
-    <p><a href="https://garbuzovan496-debug.github.io/datalens-sales-dashboard/">Вернуться на страницу проекта</a></p>
+    <div class="container">
+        <h1>📊 Дашборд по анализу продаж в Yandex DataLens</h1>
+        
+        <p>Этот проект демонстрирует навыки создания интерактивных дашбордов для бизнес-аналитики. Дашборд позволяет в реальном времени отслеживать ключевые показатели эффективности отдела продаж интернет-магазина.</p>
+
+        <!-- Вставка скриншота -->
+        <img src="Снимок экрана 2026-08-24 192432.png" alt="Визуализация дашборда DataLens" class="project-image">
+
+        <h2>🎯 Задача</h2>
+        <p>Разработать инструмент для мониторинга ключевых метрик отдела продаж, чтобы руководитель мог быстро оценивать ситуацию, видеть тренды и принимать решения на основе данных.</p>
+
+        <h2>📁 Данные</h2>
+        <ul>
+            <li><strong>Источник:</strong> CSV-файл с 15 записями о продажах.</li>
+            <li><strong>Период:</strong> Январь — апрель 2026 года.</li>
+            <li><strong>Содержание:</strong> Дата, сегмент (корпоративный/розница), менеджер, регион, выручка, количество заказов, конверсия, затраты, количество обращений в поддержку.</li>
+        </ul>
+
+        <h2>🛠 Инструменты</h2>
+        <ul>
+            <li><strong>Yandex DataLens:</strong> Визуализация данных, создание дашбордов.</li>
+            <li><strong>Обработка данных:</strong> Создание вычисляемых полей (средний чек, конверсия).</li>
+            <li><strong>Markdown:</strong> Оформление документации.</li>
+        </ul>
+
+        <h2>📈 Ключевые возможности дашборда</h2>
+        <ul>
+            <li><strong>3 KPI-индикатора:</strong> Общая выручка, средний чек, конверсия.</li>
+            <li><strong>Динамика выручки:</strong> Столбчатая диаграмма по датам.</li>
+            <li><strong>Детальная таблица:</strong> Эффективность каждого менеджера с показателями.</li>
+        </ul>
+
+        <a href="https://garbuzovan496-debug.github.io/" class="back-link">← Вернуться в каталог решений</a>
+    </div>
 </body>
 </html>
